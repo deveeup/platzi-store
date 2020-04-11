@@ -16,11 +16,11 @@ script:
 
 deploy:
   provider: pages
-  skip-cleanup: true
-  keep-history: true
-  github-token: $GITHUB_TOKEN
-  local-dir: dist/
-  target-branch: gh-pages
+  skip_clean: true
+  keep_history: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist/
+  target_branch: gh-pages
   commit_message: "update deploy travis run..."
   on:
     branch: master
