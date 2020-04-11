@@ -21,6 +21,6 @@ deploy:
   github-token: $GITHUB_TOKEN
   local-dir: dist/
   target-branch: gh-pages
-  commit_message: "deploy on project"
+  commit_message: "update deploy travis run..."
   on:
     branch: master
