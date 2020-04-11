@@ -9,6 +9,7 @@ git:
 script: 
   - yarn build
 notifications: 
+  slack: personal-fit:d1vkQpTBxLstExR4gcLqbTtn
   email:
     recipients:
       - jossedaviid1@gmail.com
